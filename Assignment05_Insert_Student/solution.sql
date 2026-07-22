@@ -1,16 +1,3 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
-
-CREATE TABLE Student(
-    StudentID INT(5) PRIMARY KEY,
-    StudentName VARCHAR(20) NOT NULL,
-    DOB DATE,
-    Gender VARCHAR(10),
-    DepartmentID INT(5),
-    Email VARCHAR(30),
-    PhoneNumber BIGINT
-);
 
 -- Insert
 
@@ -21,3 +8,16 @@ CREATE TABLE Student(
 -- 1003 Karthik
 
 -- Display all records
+
+CREATE TABLE Student(
+studentID INT PRIMARY KEY,
+studentName VARCHAR(50),
+Gender VARCHAR(10),
+DeaprtmentID INT);
+
+INSERT INTO Student (studentID, StudentName, Gender, DepartmentID)
+VALUES (1001, 'Arun', 'Male', 101),
+(1002, 'Divya', 'Feamle', 102),
+(1003, 'Karthick', 'Male', 101);
+
+SELECT*FROM Student
