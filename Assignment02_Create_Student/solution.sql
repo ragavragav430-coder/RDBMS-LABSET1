@@ -13,9 +13,9 @@
 
 -- Add constraints
 
-CREATE DATABASE  college;
-
 use college;
+
+DROP TABLE student;
 
 CREATE TABLE  student(
    StudentID INT(5)PRIMARY KEY,
@@ -24,6 +24,7 @@ CREATE TABLE  student(
    Gender VARCHAR(10)NOT NULL,
    DepartmentID INT(50)NOT NULL
    );
+  
   
   
   
