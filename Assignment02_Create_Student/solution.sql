@@ -24,8 +24,3 @@ CREATE TABLE  student(
    Gender VARCHAR(10)NOT NULL,
    DepartmentID INT(5)NOT NULL
    );
-  
-  
-  
-
-  
