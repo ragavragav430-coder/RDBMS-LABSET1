@@ -1,4 +1,3 @@
-
 -- Insert
 
 -- 1001 Arun
@@ -8,7 +7,6 @@
 -- 1003 Karthik
 
 -- Display all records
-
 CREATE TABLE Student(
 studentID INT PRIMARY KEY,
 studentName VARCHAR(50),
