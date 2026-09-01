@@ -4,7 +4,6 @@
 -- Delete StudentID 1002
 
 -- Display all records
-
 CREATE TABLE student(
         studentID INT PRIMARY KEY,
         studentName VARCHAR(50),
