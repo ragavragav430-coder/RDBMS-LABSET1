@@ -1,10 +1,8 @@
-
 -- Create Course table
 
 -- Insert three records
 
 -- Display structure
-
 USE college;
 CREATE TABLE Course(
 CourseID INT PRIMARY KEY,
