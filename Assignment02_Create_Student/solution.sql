@@ -1,4 +1,3 @@
-
 -- Create Student table
 
 -- StudentID
@@ -12,7 +11,6 @@
 -- DepartmentID
 
 -- Add constraints
-
 use college;
 
 DROP TABLE student;
