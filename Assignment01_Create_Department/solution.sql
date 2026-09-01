@@ -5,7 +5,6 @@
 -- Use Database
 
 -- Create Department Table
-
 use college;
 
 create database college_db;
