@@ -1,4 +1,3 @@
-
 -- Update Karthik's DepartmentID
 
 -- Delete StudentID 1002
